@@ -1,13 +1,38 @@
+.authorlmq:after {
+    position: absolute;
+    top: -0 !important;
+    left: 0;
+    content: " ";
+    
+    background-size: 100% 100px;
+    width: 100%;
+    height: 100px;
+    float: left;
+    z-index: 99;
+}
+
 .authorlmq {
     min-height: 375px;
     position: relative;
+   
     padding-top: 50px;
     padding-bottom: 50px;
     background-position: center;
-    background-size: cover;
+        background-size: cover;
+}
+#authorlmq .carousel-inner:hover{
+  cursor: -moz-grab;
+  cursor: -webkit-grab;
+}
+#authorlmq .carousel-inner:active{
+  cursor: -moz-grabbing;
+  cursor: -webkit-grabbing;
+}
+#authorlmq .carousel-inner .item{
+  overflow: hidden;
 }
 
-.authorlmq_indicators .tampil-indicators{
+.authorlmq_indicators .carousel-indicators{
   left: 0;
   margin: 0;
   width: 100%;
@@ -22,7 +47,7 @@
   text-align: center;
   white-space: nowrap;
 }
-.authorlmq_indicators .tampil-indicators li{
+.authorlmq_indicators .carousel-indicators li{
   padding: 0;
   width: 14px;
   height: 14px;
@@ -32,19 +57,29 @@
   cursor: pointer;
   display: inline-block;
   background: #ffffff;
+  -webkit-border-radius: 100%;
   border-radius: 100%;
 }
-.authorlmq_indicators .tampil-indicators .active{
+.authorlmq_indicators .carousel-indicators .active{
   padding: 0;
   width: 14px;
   height: 14px;
   border: none;
   margin: 2px 3px;
   background-color: #9dd3af;
+  -webkit-border-radius: 100%;
   border-radius: 100%;
 }
+.authorlmq_indicators .carousel-indicators::-webkit-scrollbar{
+  height: 3px;
+}
+.authorlmq_indicators .carousel-indicators::-webkit-scrollbar-thumb{
+  background: #eeeeee;
+  -webkit-border-radius: 0;
+  border-radius: 0;
+}
 
-.authorlmq_control_button .tampil-control{
+.authorlmq_control_button .carousel-control{
   top: 175px;
   opacity: 1;
   width: 40px;
@@ -61,8 +96,12 @@
   background: transparent;
   border: 2px solid #ffffff;
   text-transform: uppercase;
+  -webkit-border-radius: 100%;
   border-radius: 100%;
+  -webkit-box-shadow: none;
   box-shadow: none;
+  -webkit-transition: all 0.6s cubic-bezier(0.3,1,0,1);
+  transition: all 0.6s cubic-bezier(0.3,1,0,1);
 }
 
 .authorlmq_header{
@@ -110,7 +149,9 @@
     position: relative;
     border-radius: 50%;
     box-shadow: -6px 6px 6px rgba(0, 0, 0, 0.23);
-  
+    -moz-box-shadow: -6px 6px 6px rgba(0, 0, 0, 0.23);
+    -o-box-shadow: -6px 6px 6px rgba(0, 0, 0, 0.23);
+    -webkit-box-shadow: -6px 6px 6px rgba(0, 0, 0, 0.23);
 }
  
 .authorlmq_slide p {
@@ -125,6 +166,20 @@
   margin: 10px 0 13px 0;
 }
 
-.authorlmq .tampil {
+.authorlmq .carousel {
 	padding-bottom:50px;
 }
+.authorlmq .carousel-control-next-icon, .testimonial .carousel-control-prev-icon {
+    width: 35px;
+    height: 35px;
+}
+.mediaonlinenyalmq{
+   width : 100px;
+   top: 0px;
+   left: 0px;
+   right: 0px;
+   margin: auto;
+   display: flex;
+   border-radius: 50%;
+   padding: 0px 0px 12px 0px;
+   }
