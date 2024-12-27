@@ -1,34 +1,10 @@
-.authorlmq:after {
-    position: absolute;
-    left: 0;
-    content: " ";
-    
-    background-size: 100% 100px;
-    width: 100%;
-    height: 100px;
-    float: left;
-    z-index: 99;
-}
-
 .authorlmq {
     min-height: 375px;
     position: relative;
-   
     padding-top: 50px;
     padding-bottom: 50px;
     background-position: center;
         background-size: cover;
-}
-#authorlmq .tampil-inner:hover{
-  cursor: -moz-grab;
-  cursor: -webkit-grab;
-}
-#authorlmq .tampil-inner:active{
-  cursor: -moz-grabbing;
-  cursor: -webkit-grabbing;
-}
-#authorlmq .tampil-inner .item{
-  overflow: hidden;
 }
 
 .authorlmq_indicators .tampil-indicators{
@@ -159,8 +135,4 @@
 
 .authorlmq .tampil {
 	padding-bottom:50px;
-}
-.authorlmq .tampil-control-next-icon, .testimonial .tampil-control-prev-icon {
-    width: 35px;
-    height: 35px;
 }
