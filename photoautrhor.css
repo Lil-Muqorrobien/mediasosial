@@ -19,19 +19,19 @@
     background-position: center;
         background-size: cover;
 }
-#authorlmq .carousel-inner:hover{
+#authorlmq .tampil-inner:hover{
   cursor: -moz-grab;
   cursor: -webkit-grab;
 }
-#authorlmq .carousel-inner:active{
+#authorlmq .tampil-inner:active{
   cursor: -moz-grabbing;
   cursor: -webkit-grabbing;
 }
-#authorlmq .carousel-inner .item{
+#authorlmq .tampil-inner .item{
   overflow: hidden;
 }
 
-.authorlmq_indicators .carousel-indicators{
+.authorlmq_indicators .tampil-indicators{
   left: 0;
   margin: 0;
   width: 100%;
@@ -46,7 +46,7 @@
   text-align: center;
   white-space: nowrap;
 }
-.authorlmq_indicators .carousel-indicators li{
+.authorlmq_indicators .tampil-indicators li{
   padding: 0;
   width: 14px;
   height: 14px;
@@ -59,7 +59,7 @@
   -webkit-border-radius: 100%;
   border-radius: 100%;
 }
-.authorlmq_indicators .carousel-indicators .active{
+.authorlmq_indicators .tampil-indicators .active{
   padding: 0;
   width: 14px;
   height: 14px;
@@ -70,7 +70,7 @@
   border-radius: 100%;
 }
 
-.authorlmq_control_button .carousel-control{
+.authorlmq_control_button .tampil-control{
   top: 175px;
   opacity: 1;
   width: 40px;
@@ -157,10 +157,10 @@
   margin: 10px 0 13px 0;
 }
 
-.authorlmq .carousel {
+.authorlmq .tampil {
 	padding-bottom:50px;
 }
-.authorlmq .carousel-control-next-icon, .testimonial .carousel-control-prev-icon {
+.authorlmq .tampil-control-next-icon, .testimonial .tampil-control-prev-icon {
     width: 35px;
     height: 35px;
 }
