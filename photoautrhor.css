@@ -1,6 +1,5 @@
 .authorlmq:after {
     position: absolute;
-    top: -0 !important;
     left: 0;
     content: " ";
     
@@ -69,14 +68,6 @@
   background-color: #9dd3af;
   -webkit-border-radius: 100%;
   border-radius: 100%;
-}
-.authorlmq_indicators .carousel-indicators::-webkit-scrollbar{
-  height: 3px;
-}
-.authorlmq_indicators .carousel-indicators::-webkit-scrollbar-thumb{
-  background: #eeeeee;
-  -webkit-border-radius: 0;
-  border-radius: 0;
 }
 
 .authorlmq_control_button .carousel-control{
