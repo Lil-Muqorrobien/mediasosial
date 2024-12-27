@@ -1,5 +1,5 @@
 
-function helloWorld() {
+
 <style> 
    img.publikasi-kegiatan-thumb{padding:2px;width:100px;height:100px;float:left;margin:0px 10px 10px;border: 1px solid #69B7E2;}
   .publikasi-kegiatan-container {font-family:$('Poppins', sans-serif);font-size:12px;font-style:normal;}
@@ -28,4 +28,4 @@ Guru Aktif Pon. Pes. Lil-Muqorrobien
 </div>
 </li>
 </ul>
-}
+
