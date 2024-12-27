@@ -8,32 +8,6 @@ height : 100px;
 float : left;
 z-index : 99;
 }
-.authorlmq {
-min-height : 375px;
-position : relative;
-padding-top : 50px;
-padding-bottom : 50px;
-}
-
-
-.authorlmq_header {
-top : 0;
-left : 0;
-bottom : 0;
-width : 550px;
-display : block;
-margin : 30px auto;
-text-align : center;
-position : relative;
-}
-.authorlmq_header h4 {
-color : #000000;
-font-size : 30px;
-font-weight : 600;
-position : relative;
-letter-spacing : 1px;
-text-transform : uppercase;
-}
 .authorlmq_slide {
 top : 0;
 left : 0;
@@ -75,7 +49,6 @@ margin : 10px 0 13px 0;
 .authorlmq .carousel {
 padding-bottom : 50px;
 }
-
 .mediaonlinenyalmq {
 width : 100px;
 top : 0;
