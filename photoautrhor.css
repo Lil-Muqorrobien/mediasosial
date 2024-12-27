@@ -32,7 +32,6 @@
   cursor: pointer;
   display: inline-block;
   background: #ffffff;
-  -webkit-border-radius: 100%;
   border-radius: 100%;
 }
 .authorlmq_indicators .tampil-indicators .active{
@@ -42,7 +41,6 @@
   border: none;
   margin: 2px 3px;
   background-color: #9dd3af;
-  -webkit-border-radius: 100%;
   border-radius: 100%;
 }
 
@@ -63,12 +61,8 @@
   background: transparent;
   border: 2px solid #ffffff;
   text-transform: uppercase;
-  -webkit-border-radius: 100%;
   border-radius: 100%;
-  -webkit-box-shadow: none;
   box-shadow: none;
-  -webkit-transition: all 0.6s cubic-bezier(0.3,1,0,1);
-  transition: all 0.6s cubic-bezier(0.3,1,0,1);
 }
 
 .authorlmq_header{
@@ -116,9 +110,7 @@
     position: relative;
     border-radius: 50%;
     box-shadow: -6px 6px 6px rgba(0, 0, 0, 0.23);
-    -moz-box-shadow: -6px 6px 6px rgba(0, 0, 0, 0.23);
-    -o-box-shadow: -6px 6px 6px rgba(0, 0, 0, 0.23);
-    -webkit-box-shadow: -6px 6px 6px rgba(0, 0, 0, 0.23);
+  
 }
  
 .authorlmq_slide p {
