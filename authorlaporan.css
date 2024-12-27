@@ -54,13 +54,7 @@ margin : 2px 3px;
 background-color : #9dd3af;
 border-radius : 100%;
 }
-.authorlmq_indicators .carousel-indicators::-webkit-scrollbar {
-height : 3px;
-}
-.authorlmq_indicators .carousel-indicators::-webkit-scrollbar-thumb {
-background : #eeeeee;
-border-radius : 0;
-}
+
 .authorlmq_control_button .carousel-control {
 top : 175px;
 opacity : 1;
